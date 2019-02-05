@@ -11,7 +11,7 @@ public class Main {
         String userName;
         keyboard = new Scanner(System.in);
         System.out.println("Hello.");
-        System.out.println("What s your name?");
+        System.out.println("What is your name?");
         userName = keyboard.nextLine();
         System.out.println("What is your height in inches?");
         inches = keyboard.nextInt();
