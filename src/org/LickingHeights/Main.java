@@ -8,7 +8,11 @@ public class Main {
         // equation for BMI is BMI=kg/m*m
         Scanner keyboard;
         int inches, pounds;
+        String userName;
         keyboard = new Scanner(System.in);
+        System.out.println("Hello.");
+        System.out.println("What s your name?");
+        userName = keyboard.nextLine();
         System.out.println("What is your height in inches?");
         inches = keyboard.nextInt();
         System.out.println("What is your weight in pounds?");
@@ -19,7 +23,7 @@ public class Main {
         kg = pounds*(0.453592/1);
 
         BMI = kg/(meters*meters);
-        System.out.println("Your BMI is "+BMI);
+        System.out.println(userName+"'s BMI is "+BMI);
 
 
     }
