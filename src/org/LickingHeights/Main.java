@@ -14,6 +14,10 @@ public class Main {
         System.out.println("What is your weight in pounds?");
         pounds = keyboard.nextInt();
 
+        double meters, kg,BMI;
+        meters = inches*(0.0254/1);
+        kg = pounds*(0.453592/1);
+
 
     }
 }
